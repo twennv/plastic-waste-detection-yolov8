@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Autre plastique', 'Bouteille plastique', 'Non plastique', 'Sac plastique']
+
+roboflow:
+  workspace: pic2024
+  project: pic_2024
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pic2024/pic_2024/dataset/4
